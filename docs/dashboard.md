@@ -1,6 +1,7 @@
 ## 1) AI 24-Hour Status (Per-Camera Indicator)
 
 This section shows whether a given camera has positively detected a **person** within the last 24 hours. Tiles reset automatically so you can quickly confirm recent activity.
+
 <img width="426" height="374" alt="image" src="https://github.com/user-attachments/assets/df899b5a-f6e8-4a7b-bb79-cedfb31cc93c" />
 
 ---
