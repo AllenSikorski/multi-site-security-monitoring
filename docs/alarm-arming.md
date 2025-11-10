@@ -3,6 +3,8 @@
 This dashboard control allows you to **arm or disarm the entire alarm system** for a given site with a single tap.  
 Behind this simple button is a coordinated automation flow that governs the behavior of the site’s alarms, sirens, and notification logic.
 
+<img width="438" height="193" alt="image" src="https://github.com/user-attachments/assets/383dcc79-0b4a-46f9-86d4-66ff4fe3ec36" />
+
 ---
 
 ## Purpose
@@ -68,7 +70,6 @@ When **false**, these automations are **bypassed entirely**, providing a safe mo
 A detailed breakdown of the Node-RED logic is available in the [`Node-RED.md`](./Node-RED.md) section.
 
 ---
-<img width="1827" height="372" alt="image" src="https://github.com/user-attachments/assets/5dcdd59a-473c-4f32-85a7-eed9e28c4313" />
 
 ## Why It Matters
 
