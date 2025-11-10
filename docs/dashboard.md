@@ -29,6 +29,7 @@ input_boolean:
   sv_interior_person_activity:
     name: SV Interior Person Activity
     initial: false
+```
 
 ### 24-Hour Auto-Reset (HA Automations)
 This automation turns the corresponding boolean on when a person is detected, waits 24 hours, then turns it off.
@@ -51,5 +52,6 @@ actions:
       entity_id: input_boolean.sv_exterior_back_yard_person_activity
     action: input_boolean.turn_off
 mode: restart
+```
 
 This pattern makes it easy to glance at the dashboard and confirm whether anyone has been detected in the last 24 hours for each area.
