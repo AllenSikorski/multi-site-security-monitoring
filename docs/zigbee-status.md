@@ -1,6 +1,7 @@
 # Zigbee2MQTT Bridge Connection Status
 
 This section monitors whether the **Zigbee2MQTT coordinator** is online. Each site’s card reflects the real-time bridge connection status so you can quickly confirm Zigbee network health.
+
 <img width="434" height="176" alt="image" src="https://github.com/user-attachments/assets/6157bcaf-ad7c-439e-982d-1f2aee4ce68e" />
 
 ---
