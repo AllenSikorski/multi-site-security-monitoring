@@ -20,7 +20,7 @@ state:
   - value: "off"
     color: red
     icon: mdi:cctv-off
-
+``` 
 ### Entity Definition (configuration.yaml)
 The boolean initializes as false so the tile remains red until there’s a positive AI person ID from the camera.
 
