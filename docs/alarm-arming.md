@@ -68,6 +68,7 @@ When **false**, these automations are **bypassed entirely**, providing a safe mo
 A detailed breakdown of the Node-RED logic is available in the [`Node-RED.md`](./Node-RED.md) section.
 
 ---
+<img width="1827" height="372" alt="image" src="https://github.com/user-attachments/assets/5dcdd59a-473c-4f32-85a7-eed9e28c4313" />
 
 ## Why It Matters
 
