@@ -3,6 +3,8 @@
 This section shows whether each site’s **remote Home Assistant** node is online.  
 If a remote node goes offline, the card immediately reflects it so you can react quickly.
 
+<img width="430" height="170" alt="image" src="https://github.com/user-attachments/assets/cb525b1f-66b5-4a21-b38d-7932dfa19498" />
+
 ---
 
 ## Prerequisites
