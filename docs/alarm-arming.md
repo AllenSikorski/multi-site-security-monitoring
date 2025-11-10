@@ -65,7 +65,7 @@ If any AI or motion detection occurs during that window, the system will:
 
 When **false**, these automations are **bypassed entirely**, providing a safe mode for maintenance crews or authorized after-hours access.
 
-<img width="1827" height="372" alt="image" src="https://github.com/user-attachments/assets/00c7195e-db04-4b56-b7d8-c49aad20ab7e" />
+<img width="1830" height="429" alt="image" src="https://github.com/user-attachments/assets/958d0912-cb37-4b29-a401-ef95134c96d9" />
 
 A detailed breakdown of the Node-RED logic is available in the [`Node-RED.md`](./Node-RED.md) section.
 
