@@ -57,6 +57,8 @@ Develop → Messaging → Regulatory Compliance → A2P 10DLC
 You’ll see your phone number listed under **Messaging Services**.  
 Set the **“A message comes in”** option to use a **Webhook**, pointing to your public Home Assistant URL. 
 
+<img width="1175" height="663" alt="image" src="https://github.com/user-attachments/assets/ae446762-c467-4f0a-8057-8432349a65ec" />
+
 For example, if you use **Nabu Casa**:
 https://hooks.nabu.casa/xxxxxx
 
