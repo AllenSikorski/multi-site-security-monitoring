@@ -8,7 +8,7 @@ It’s designed for quick, safe recovery when a site drops offline.
 
 ## Lovelace Card (YAML)
 
-'''yaml
+```yaml
 type: custom:button-card
 name: SV
 entity: sensor.south_valley_udm_pro_state
@@ -29,7 +29,7 @@ state:
   - operator: default
     color: red
     icon: mdi:lan-disconnect
-'''
+```
 `sensor.south_valley_udm_pro_state` is a **connectivity/state sensor** for the site’s gateway.
 
 Tapping the tile calls `button.south_valley_udm_pro_restart`, which is the **Restart** entity exposed by the UniFi integration for that gateway.
