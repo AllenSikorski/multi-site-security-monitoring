@@ -18,24 +18,30 @@ When **“DISARM”** is used, the site’s alarm automation is **completely dis
 
 ---
 
-## Command Reference
+## 📱 Command Reference
+
+The following commands are examples of how SMS-based site control works.  
+You can update these to match your own **locations**, **site codes**, or **custom automation names**.
 
 | Command | Action |
 |:--|:--|
-| `ARM SV` | Arm **South Valley** (enable after-hours logic) |
-| `DISARM SV` | Disarm **South Valley** (disable all alarm logic) |
-| `ARM SF715` | Arm **Santa Fe 715** |
-| `DISARM SF715` | Disarm **Santa Fe 715** |
-| `ARM JF` | Arm **Jefferson** |
-| `DISARM JF` | Disarm **Jefferson** |
-| `SIRENS SV ON` | Turn **ON** all SV sirens (interior + exterior) |
-| `SIRENS SV OFF` | Turn **OFF** all SV sirens |
-| `SIRENS SF715 ON` | Turn **ON** all SF715 sirens |
-| `SIRENS SF715 OFF` | Turn **OFF** all SF715 sirens |
-| `SIRENS JF ON` | Turn **ON** all JF sirens |
-| `SIRENS JF OFF` | Turn **OFF** all JF sirens |
+| `ARM SV` | Arm **SV location** (enable after-hours logic) |
+| `DISARM SV` | Disarm **SV location** (disable all alarm logic) |
+| `ARM SF715` | Arm **SF715 location** |
+| `DISARM SF715` | Disarm **SF715 location** |
+| `ARM JF` | Arm **JF location** |
+| `DISARM JF` | Disarm **JF location** |
+| `SIRENS SV ON` | Turn **ON** all sirens at the **SV location** (interior + exterior) |
+| `SIRENS SV OFF` | Turn **OFF** all sirens at the **SV location** |
+| `SIRENS SF715 ON` | Turn **ON** all sirens at the **SF715 location** |
+| `SIRENS SF715 OFF` | Turn **OFF** all sirens at the **SF715 location** |
+| `SIRENS JF ON` | Turn **ON** all sirens at the **JF location** |
+| `SIRENS JF OFF` | Turn **OFF** all sirens at the **JF location** |
 | `COMMANDS` | Returns a list of available commands by SMS |
 
+> 🏷️ **Note:**  
+> The examples above use `SV`, `SF715`, and `JF` as site identifiers.  
+> These can be replaced or expanded for as many sites as your organization manages.
 > You can easily **add or remove** site commands, or restrict them by phone number using the **allowlist** (explained below).
 
 ---
@@ -352,7 +358,7 @@ to the sender, confirming exactly what happened.
 - [/dashboard/alarm-arming.md](../dashboard/alarm-arming.md)  
 - [/dashboard/sirens-control.md](../dashboard/sirens-control.md) *(flow screenshots)*  
 
-**Twilio setup (create next):**  
+**Twilio setup:**  
 - [/automations/twilio-integration.md](./twilio-integration.md) — credentials, `twilio:` config, and enabling the `event → notify` bridge.  
 
 ---
