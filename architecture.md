@@ -30,6 +30,8 @@ Each Home Assistant node includes:
 Each site uses **AI-enabled IP cameras** managed locally (e.g., via UniFi Protect, Reolink, or similar).  
 Camera integrations feed object detection events into Home Assistant.
 
+<img width="1421" height="763" alt="image" src="https://github.com/user-attachments/assets/423381fd-0fb2-4273-91ea-e1fab7549694" />
+
 - The automation layer only reacts to **“person detected”** events from the onboard AI models.  
 - AI events trigger automation flows that control alarms and notifications.
 
