@@ -54,4 +54,4 @@ Each card on the dashboard represents a real site and pulls its entity data from
 
 > 💡 **Note:**  
 > This documentation focuses on the **dashboard and its connected automations**.  
-> Broader Node-RED logic, cloud integrations (Twilio, MQTT, etc.), and backend systems will be covered separately in a future `/docs/automations/` section.
+> Broader Node-RED logic, cloud integrations (Twilio, MQTT, etc.), and backend systems will be covered separately in the `/docs/automations/` section.
