@@ -14,6 +14,9 @@ It provides centralized visibility, remote management, and a secure SMS interfac
 ---
 
 ## 🏗️ Architecture
+
+<img width="906" height="885" alt="image" src="https://github.com/user-attachments/assets/47012712-7c33-4847-b550-35c5a7624edd" />
+
 - **AI Detection Layer** – Network cameras with onboard AI detect confirmed human presence before sending event triggers.  
 - **Automation & Control Layer** – Zigbee smart plugs (Third Reality & SONOFF) activate LED and siren alarms through local automations.  
 - **Core Logic Layer** – Node-RED automations coordinate all sensors, detection events, and siren triggers.  
